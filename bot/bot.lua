@@ -94,7 +94,7 @@ function create_config( )
     admins = {79363459,244870506},
     disabled_channels = {ujkrobot_channel},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》permag.ir v3
+    info_text = [[》ربات amirking v3
 
 🔰Our channel :
 》@ujkrobot_channel《
