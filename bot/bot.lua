@@ -90,24 +90,16 @@ function create_config( )
 	"lock-fosh"
 	
  },
-    sudo_users = {123456789},
-    admins = {},
-    disabled_channels = {},
+    sudo_users = {79363459,244870506},
+    admins = {79363459,244870506},
+    disabled_channels = {ujkrobot_channel},
     moderation = {data = './data/moderation.json'},
     info_text = [[》permag.ir v3
 
 🔰Our channel :
-》@permag_bots《
+》@ujkrobot_channel《
 
-🔰Our channel2 :
-》@permag_ir《
 
-🔰Our channel3 :
-》@permag《
-
-🔰Our website :
-》http://permag.ir
-]],
   }
   serialize_to_file(config, './data/config.lua')
   print ('saved config into conf.lua')
@@ -894,7 +886,7 @@ elseif msg.content_.ID == "MessageGame" then
   end
 
 end
--- http://permag.ir
--- @permag_ir
--- @permag_bots
--- @permag
+
+
+-- @ujkrobot_channel
+-- @ujkrobot
